@@ -20,6 +20,12 @@ TARGET_SPECIFIC_HEADER_PATH += device/semc/haida/include
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/haida/bluedroid
 
+# Set -fstrict-aliasing flag to global
+MAKE_STRICT_GLOBAL := true
+
+# Enable memory optimization
+OPT_MEMORY := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := lx_haida_defconfig
 
