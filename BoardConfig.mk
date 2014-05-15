@@ -26,6 +26,9 @@ MAKE_STRICT_GLOBAL := true
 # Enable memory optimization
 OPT_MEMORY := true
 
+#Enable Graphite OPT
+ENABLE_GRAPHITE := false
+
 # Kernel
 TARGET_KERNEL_CONFIG := lx_haida_defconfig
 
